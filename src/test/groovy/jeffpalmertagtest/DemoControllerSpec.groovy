@@ -14,6 +14,6 @@ class DemoControllerSpec extends Specification implements ControllerUnitTest<Dem
     }
 
     Set<String> getIncludePlugins() {
-        ['groovyPages', 'codecs', 'urlMappings']
+        ['groovyPages', 'urlMappings']
     }
 }
